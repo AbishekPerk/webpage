@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(159, 207, 249);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+
+    background-color: rgb(21, 94, 158);
+    list-style: none;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    
+}
+
+nav a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 15px;
+    color: rgb(240, 241, 243);
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #f6f6f6;
+    color: black;   
+}
+nav a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+section{
+    text-align: center;
+}
+
+.img{
+    list-style: none;
+    text-align: center;
+}
+.img li img{
+    height: 300px;
+    width: 500px;
+    padding: 14px 16px;
+}
+
+footer p{
+    background-color:  rgb(141, 199, 251);
+    text-align: center;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+}
+.title{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.price{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    background-color: #ece6e6fb;
+    color: #030303;
+}
+table tr th{
+    padding: 14px 16px;
+}
+.ifr iframe{
+    padding: 20px;
+}
+
+
